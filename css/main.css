@@ -12,6 +12,9 @@ a
     cursor: pointer;
 }
 
+
+/* HEADER */
+
 header
 {
     width: 100%;
@@ -26,7 +29,7 @@ header nav
 
 header nav .nav-right-section
 {
-    width: 250px;
+    width: 230px;
     height: auto;
     display: flex;
     list-style: none;
@@ -36,7 +39,7 @@ header nav .nav-right-section
 
 nav .nav-right-section a
 {
-    margin-right: 10px;
+    margin-right: 15px;
     color: #000000;
 }
 
@@ -48,10 +51,158 @@ nav .nav-right-section .menu-icon
     background-size: contain;
     width: 25px;
     height: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 nav .nav-right-section img
 {
     border-radius: 50px;
     margin-left: 10px;
+}
+
+/* MAIN */
+
+main 
+{
+    margin-top: 198px;
+    text-align: center;
+}
+
+main .main-logo
+{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 23px;
+}
+
+main .main-input 
+{
+    width: 582px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+main .main-input-container
+{
+    width: 582px;
+    border-radius: 100px;
+    border: 1px solid #dfe1e5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main .main-input input
+{
+    width: 450px;
+    height: 42px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover
+{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+main .main-input .search-icon
+{
+    background-image: url("https://img.icons8.com/android/24/000000/search.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 14px;
+    height: 14px;
+}
+
+main .main-input .micro-icon
+{
+    background-image: url("https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+main .main-buttons
+{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div
+{
+    display: inline-block;
+}
+
+main .main-buttons button
+{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 0;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 3px;
+    padding: 0 15px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+main .main-buttons button:hover
+{
+    box-shadow: 0 1px 2px 0 #20212447;
+    border-color: #dfe1e500;
+    cursor: pointer;
+    border: solid 1px #d6d6d6;
+}
+
+/* FOOTER */
+
+.footer
+{
+    display: flex;
+    height: 49.5vh;
+    align-items: flex-end;
+    color: #222;
+}
+
+.section-footer
+{
+    background: #f2f2f2;
+    width: 100vw;
+}
+
+.footer-country p
+{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: rgba(0,0,0,.54);
+    margin: 0;
+}
+
+.footer-menus
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu
+{
+    display: flex;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.footer-menu li
+{
+    padding: 15px 15px;
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
+    margin: 0;
+    list-style: none;
 }
